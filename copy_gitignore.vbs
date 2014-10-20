@@ -43,8 +43,14 @@ function CopyGitignoreToSubfolders()
 
 	Set colFiles = objFolder.SubFolders
 	For Each objFile in colFiles
-		cmdLine = "cp " & FILE_GITIGNORE_NAME & """" & objFile & """"
-		wshShell.Exec(  cmdLine  )
+		wscript.echo objFile
+		If (objFSO.FileExists(filespec)) then
+			wscript.echo "file exist"
+			cmdLine = "copy " & FILE_GITIGNORE_NAME & " """ & objFile & """"
+			wshShell.Exec(  cmdLine  )
+		else
+			wscript.echo "file not exist"
+		end if	
 	Next
 end function
 
