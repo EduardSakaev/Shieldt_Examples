@@ -1,0 +1,10 @@
+bin/Debug/*.exe
+bin/Debug/*.config
+bin/Debug/*.pdb
+bin/Debug/*.manifest
+
+obj/Debug/*.cache
+obj/Debug/*.txt
+obj/Debug/*.exe
+obj/Debug/*.pdb
+obj/Debug/*.cs
