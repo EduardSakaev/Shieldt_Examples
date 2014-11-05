@@ -127,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading_Wait_Pulse",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading_MethodlmplAttribute _synchronization", "Multithreading_MethodlmplAttribute _synchronization\Multithreading_MethodlmplAttribute _synchronization.csproj", "{969BB826-EFC6-4D65-AD9D-9364A9FAB2FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading_mutex", "Multithreading_mutex\Multithreading_mutex.csproj", "{A12C864D-FB3A-4F43-805C-D7C8D799DD9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -767,6 +769,16 @@ Global
 		{969BB826-EFC6-4D65-AD9D-9364A9FAB2FB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{969BB826-EFC6-4D65-AD9D-9364A9FAB2FB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{969BB826-EFC6-4D65-AD9D-9364A9FAB2FB}.Release|Win32.ActiveCfg = Release|Any CPU
+		{A12C864D-FB3A-4F43-805C-D7C8D799DD9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12C864D-FB3A-4F43-805C-D7C8D799DD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12C864D-FB3A-4F43-805C-D7C8D799DD9C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A12C864D-FB3A-4F43-805C-D7C8D799DD9C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A12C864D-FB3A-4F43-805C-D7C8D799DD9C}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{A12C864D-FB3A-4F43-805C-D7C8D799DD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12C864D-FB3A-4F43-805C-D7C8D799DD9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12C864D-FB3A-4F43-805C-D7C8D799DD9C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A12C864D-FB3A-4F43-805C-D7C8D799DD9C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A12C864D-FB3A-4F43-805C-D7C8D799DD9C}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
